@@ -1,12 +1,9 @@
-import { NavLink } from "react-router-dom";
-import "./NavBar.css";
+
+import React from "react";
 
 function NavBar() {
-  return (
-    <nav className="navbar">
-    
-    </nav>
-    );
-};
+  // update the JSX being returned!
+  return <nav>NavBar</nav>;
+}
 
 export default NavBar;
